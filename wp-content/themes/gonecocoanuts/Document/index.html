@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>AweBooking Plugin Documentation</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css"/>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="layout" class="">
+	<aside id="menu" class="menu">
+        <div class="logo">
+            <h1><a href="#">AweBooking</a></h1>
+            <span>Wordpress Plugin</span>
+            <a id="menu-link" class="icon-menu" href="#menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="menu-links">
+            <ul>
+                <li>
+                    <a href="#installation" class="">
+                        <i class="fa fa-cloud-upload"></i>
+                        <span>Installation</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#update" class="">
+                        <i class="fa fa-upload"></i>
+                        <span>Installing Updates</span>
+                    </a>
+                </li>
+                <li class="hasSubmenu collapse">
+                    <a href="#config">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Plugin config</span>
+                    </a>
+                    <ul>
+                     <li>
+                            <a href="#roomtype">
+                                <i class="fa fa-rocket"></i>
+                                <span>Room type</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#manage">
+                                <i class="fa fa-lock"></i>
+                                <span>Room management</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#booking">
+                                <i class="fa fa-bullhorn"></i>
+                                <span>Bookings</span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#widget">
+                                <i class="fa fa-th-list"></i>
+                                <span>Widget</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#shortcode">
+                                <i class="fa fa-th-list"></i>
+                                <span>Shortcode</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#setting">
+                                <i class="fa fa-code"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hasSubmenu collapse">
+                    <a href="#generalinformation" class="">
+                        <i class="fa fa-info-circle"></i>
+                        <span>General information</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#gi-help">
+                                <i class="fa fa-ambulance"></i>
+                                <span>Need help?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#gi-bug">
+                                <i class="fa fa-bug"></i>
+                                <span>Report a bug</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#gi-credits">
+                                <i class="fa fa-trophy"></i>
+                                <span>Credits</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+	</aside>
+    <!-- /#menu -->
+
+	<section id="main">
+<!--         <nav class="slideshow-bar">
+            
+            <a id="scrolltop" href="#">Top &uarr;</a>
+        </nav> -->
+        <!-- /.slideshow-bar -->
+
+        <header class="header content">
+            <div>
+                <h1>AweBooking Plugin Documentation</h1>
+                <small class="version">Version 1.0</small>
+                <p>Thank you very much for purchasing our plugin. It is built with the latest version of Wordpress (4.2.2), and we will update it to next version. If you have any questions that aren’t covered in this article, please post your question <a href="http://wpprime.com/forum/plugin-support/AweBooking" target="_blank">here</a>.</p>
+            </div>
+        </header>
+        <!-- /.header -->
+
+        <section id="installation" class="content slide">
+            <div>
+                
+                <h2>Installation</h2>
+                <p>To install AweBooking, is not much different to installing any other (free) WordPress plugin, so you might be familiar with this process already. If not, please follow instructions below. </p>
+              <p>You can install by using WordPress uploader or using FTP</p>
+              <h4>WordPress plugin uploader</h4>
+              <ol>
+                <li>Log into your website </li>
+                <li>From admin menu, hover to plugin then click <mark>Add new</mark></li>
+                <li>Click <mark>Upload</mark></li>
+                <li>Browse to the AweBooking zip file (file that you extract after download from Codecanyon). </li>
+                <li>Click <mark>Install now</mark> and wait while plugin is uploaded to your server </li>
+              </ol>
+
+              <h4>FTP</h4>
+              <p>You can also install AweBooking via FTP</p>
+              <ol>
+                <li>Browse to the plugin's zip file (it is located in the folder you've downloaded from CodeCanyon) and extract that file, you will get folder named "AweBooking"</li>
+                <li>Open your FTP program, FTP into your site and navigate to the <code>wp-content/plugins/</code> directory</li>
+                <li>Upload <code>AweBooking</code> folder to this directory</li>
+                <li>Navigate to your Control Panel: Plugins</li>
+                <li>Under AweBooking, click Activate</li>
+              </ol>
+
+            </div>
+        </section>
+        <!-- #installation -->
+
+        <section id="update" class="content slide">
+            <div>
+                <h2>Installing Updates</h2>
+                  <p>When plugin has a bug fixes or enhancements, you will be notified to upgrade.</p>
+                  <p>Installing updates is just involves replacing the old plugin files with the new ones. It's always a good idea to backup everything before you upgrade, especially if you have made any changes to AweBooking's files, as the upgrade will overwrite all files. Configure that you saved though WordPress admin will all remain intact.</p>
+
+                  <h4>Backing Up</h4>
+                  <ol>
+                    <li>It is always a good idea to back up your plugin before making any changes</li>
+                    <li>Open your FTP program and FTP into your site and navigate to the <code>wp-content/plugins/</code> directory.</li>
+                    <li>Download the <code>AweBooking</code> folder and save it as a backup</li>
+                  </ol>
+
+                  <h4>Auto update</h4>
+                <p>Our plugin support auto update via Wordpress. All you need to do is press update button.</p>
+                <p>Please notify that you will need enter your license key to make auto update work. You can check <a href="http://files.megadrupal.com/how-to-get-purchase-code.png">how to get license key here</a></p>
+
+              
+              <h4>Manual update</h4>
+              <ol>
+                <li>Download the new version of the plugin from CodeCanyon</li>
+
+                <li>Browse to the plugin's zip file (it is located in the folder you've downloaded from CodeCanyon) and extract that file, you will get folder named <code>AweBooking</code></li>
+
+                <li>Switch to your FTP program, FTP into your site and navigate to the <code>wp-content/plugins/</code> directory.</li>
+                <li>Transfer the new <code>AweBooking</code> folder into the wp-content/plugins/ directory on your server, overwrite the existing one.</li>
+                <li>Ensure that your permissions are set properly on the <code>plugins/AweBooking</code> directory. If your server can't read the files, you might run into errors. This can happen depending on how your FTP account is set up.</li>
+              </ol>
+              <p>Note: If you are running a local server, just copy and override the files.</p>
+            </div>
+        </section>
+        <!-- #update -->
+
+
+        <section id="roomtype" class="content slide">
+            <div>
+            <h2>Room type</h2>
+                <p>You can see all of your room type in <code> Awebooking > All Room Types </code>  </p>
+                <p><img src="images/listroomtype.png"></p>
+                <p>You can create new room type by clicking <code>Add room Room Type</code>.</p>
+                <p><img src="images/addnewroomtype.png"></p>
+                <h4>Room Type name & description</h4>
+                <ul>
+                    <li>Name of this room type.</li>
+                    <li>Description for this room type</li>
+                </ul>
+                <p><img src="images/name-description-roomtype.png"></p>
+                <h4>Gallery image room type</h4>
+                <ul>
+                    <li>Upload gallery image</li>
+                    <li>Upload feature image that is Room thumbnail image</li>
+                </ul>
+                <p><img src="images/gallery-featureimage-roomtype.png"></p>
+
+                <h4>Genneral</h4>
+                <ul>
+                    <li><b>Number of rooms</b>: this is required field, you have to enter number depend on your hotel</li>
+                    <li><b>Default base price:</b> The default base price is used for all room of this type</li>
+                    <li><b>Default sleeping capacity:</b> The default number of guests of room type. Sleeping capacity this may be using default for all rooms carry this room type</li>
+                    <li><b>Default child capacity:</b> The default number of children of room type</li>
+                    <li><b>Minimum night:</b> the number minimum of night bookable for this </li>
+                </ul>
+                <p><img src="images/roomdata-general.png"></p>
+
+                <h4>Discount</h4>
+                <p>There are four ways you can setting discount for any Room Type. Click <code>Add</code> or <code>Remove</code> to add and detele any discount.</p>
+                <p><img src="images/roomdata-discount.png"></p>
+
+
+                <h4>Package</h4>
+                <p>More default services of room type. You can add by clicking <code>Add another item</code>.</p>
+                <p><img src="images/addnewpackage.png"></p> 
+
+
+                <h4>Extra price</h4>
+                <p>You can raise price base on the number of people each night.</p>
+                <p>Click <code>Add</code>  add new extra price</p>
+                <p> <img src="images/extraprice.png"></p>
+
+                
+                <h4>Short description</h4>
+                <p>You can insert some short description about that room type.</p>
+                <p> <img src="images/roomdata-shortdesc.png"></p>
+
+                
+
+                After adding all required information, click <code>Publish</code> then you finish creating new room type.
+                <p><img src="images/publish-roomtype.png" alt=""></p>
+            </div>
+        </section>
+        <!-- /#roomtype -->
+
+
+        <section id="manage" class="content slide">
+            <div>
+                <h2>Room management</h2>
+                <p>There are Room availability management and Room pricing management.</p>
+                <h4>Room availability management</h4>
+                <p>Managing availability of all rooms. You can update rooms' status in <code>Update availability</code>.</p>
+                <ol>
+                        <li>Choose room that you need to update</li>
+                        <li>Set date, status.</li>
+                        <li>Click <code>Update availability</code>.
+                        <p><img src="images/roommanage_upadte.png"></p>
+                        </li>
+                    </ol>
+                <h4>Room pricing management</h4>
+                <p>Managing pricing of all rooms. You can update rooms' pricing in <code>Update Pricing</code>.</p>
+                    <ol>
+                        <li>Choose room that you need to update</li>
+                        <li>Set date, set price.</li>
+                        <li>Click <code>Update Pricing</code>.
+                        <p><img src="images/updatepricing_manage.png"></p>
+                        </li>
+                    </ol>
+            </div>
+        </section>
+        <!-- /#manage -->
+ 
+
+        <section id="booking" class="content slide">
+            <div>
+                <h2>Bookings</h2>
+                <p>Bookings of customers are managed. You also can create new, edit or delete here.</p>
+                <p><img src="images/createnewbooking.png"></p>
+                <li>Click <code>New booking</code></li>
+                <ol>
+                    <li><b>Completed</b>: completed booking. Room will no longer available in booking time.</li>
+                    <li><b>Pending</b>: waiting customer to complete the payment.</li>
+                    <li><b>Canceled:</b> cancel that booking</li>
+                </ol>
+                <p><img src="images/bookingcheck.png"></p>
+            </div>
+        </section>
+        <!-- /#booking -->
+
+        
+
+        <section id="widget" class="content slide">
+            <div>
+                <h2>Widget</h2>
+                <p>Awebooking supplies a available checking widget. this widget can be placed at all sidebars for user to check available. it also allows to edit, enable/disable data fields</p>
+                <p><img src="images/widget.png"></p>
+            </div>
+        </section>
+
+         <section id="shortcode" class="content slide">
+            <div>
+                <h2>Shortcode: [apb_check_available]</h2>
+                <code>Settings > Booking form > Shortcode</code>
+                <p>System supplies one available checking form shortcode. You can copy, paste it into contents of pages. Then available checking form will be displayed. With shortcode, it will make you easier to create pages. This shortcode also help to edit, enable, disable data fields in setting.</p>
+                <p><img src="images/shortcode.png"></p>
+            </div>
+        </section>
+
+        <section id="setting" class="content slide">
+            <div>
+                <h2>Settings</h2>
+                <p>More setting about room booking, checkout, rooms page, room availability search, form shortcode, form page check availability,...</p>
+				<p><img src="images/setting.png" alt=""></p>
+
+                <h4>General</h4>
+                <p>Here's that you will define some setting such as currency, max room, max child, max adult....</p>
+                <p><img src="images/setting-general.png" alt=""></p>
+                
+                <h4>Custom color</h4>
+                <p>Setting colour to suit with your theme.</p>
+                <p><img src="images/setting-customcolor.png" alt=""></p>
+
+   
+                <h4>Booking form</h4>
+                <p>Setting form check availability, you can get shortcode and install language of canlendar here.</p>
+                <p><img src="images/setting-bookingform.png" alt=""></p>
+
+   
+                <h4>Page setting</h4>
+                <p>Choose any pages to display your rooms, checkout page, check availability or you can click <b>Install pages</b> to install default pages.</p>
+                <p><img src="images/setting-pages.png" alt=""></p>
+
+   
+                <h4>Checkout</h4>
+                <p>The plugin support 2 types of checkout presentation styles: plugin <b>Woocommerce</b> or <b>Contact form 7</b></p>
+                <ul>
+                    <li><b>Woocommerce:</b> Checkout and payment with plugin woocommerce. With checkout woocommerce function, you have to install page checkout of woocommerce</li>
+                    <li><b>Contact form 7:</b> Make sure you install and active CF7 plugin, then create new form and paste shortcode in that textarea.</li>
+                </ul>
+                <b>NOTE:</b> With CF7, you have to using two name of field <code>apb-email</code>, <code>apb-name</code> to get the customer information.
+                <p><img src="images/setting-checkout.png" alt=""></p>
+                <p><img src="images/setting-checkout-cf7.png" alt=""></p>
+
+				
+            </div>
+        </section>
+        <!-- /#setting -->
+
+
+        <section id="gi-translate" class="content slide">
+            <div>
+                <h2>Translate</h2>
+                <p> In this article I show you two ways (using <a href="https://wordpress.org/plugins/loco-translate/" target="_blank">Loco Translate</a> plugin & <a href="http://poedit.net/" target="_blank">Poedit</a> software) to build this plugin in your language.</p>
+                <p>The two steps:</p>
+                <ul class="arrowlist">
+                    <li><b>Install your language</b> from the wordpress dashboard admin</li>
+                    <li><b>Install Wordpress plugins</b> translated into your language</li>
+                </ul>
+
+                <h3>1. Install your language from wordpress dashboard</h3>
+                <p>Go to the <b>Setting > General > Site language</b> and install new language that is your language </p>
+                <p><img src="images/tran1.png"></p>
+
+                <h3>2. Install Awebooking plugin translated in your language</h3>
+                <p>Awebooking plugin is translate ready which mean that you can translate it to your language using <a  target="_blank" href="http://poedit.net/">Poedit</a> & <a target="_blank" href="https://wordpress.org/plugins/loco-translate/">Loco Translate</a></p>
+                <h4>How to use Poedit to translate awebooking</h4>
+                <p>Here are steps</p>
+                <ol>
+                    <li>Open <b>Poedit</b>, click File > New from POT/PO file</li>
+                    <li>Select file <b>awebooking.pot</b> from <b>awebooking > languages</b> folder</li>
+                    <p><img src="images/po1.png"></p>
+                    <li>A box will show up and you have to choose your language to translate</li>
+                    <p><img src="images/po2.png"></p>
+                    <li>Click OK and Poedit will name automatically your file. If you choose Portuguese:<b>pt_BR</b></li>
+                    <p><img src="images/po3.png"></p>
+                    <li>You now can easy translate any string. <br><b>NOTE THAT:</b> You have to avoid to translate al special characters from original text</li>
+                    <p><img src="images/po4.png"></p>
+                    <li>When you've finished, save your file. Poedit will automatically create both .PO & .MO file</li>
+                    <p><img src="images/po5.png"></p>
+                </ol>
+                <h4>How to use Loco Translate plugin to translate awebooking</h4>
+                <p>Here are steps</p>
+                <ol>
+                    <li>Download and Install Loco Translate plugin from <a target="_blank" href="https://wordpress.org/plugins/loco-translate/">here</a> </li>
+                    <li>After done, go to Loco Transalte in wordpress dashboard admin and create <b>New language</b></li>
+                    <p><img src="images/loco1.png"></p>
+                    <li>Choose your language to translate, Loco will automatically generate name for .PO file and click <b>Start traslating</b> button</li>
+                    <p><img src="images/loco2.png"></p>
+                    <li>You now can easy translate any string. <b>NOTE THAT: You have to avoid to translate al special characters from original text</b></li>
+                    <p><img src="images/loco3.png"></p>
+                    <li>When you've finished, save your file. Loco will automatically create both .PO & .MO file</li>
+                    <p><img src="images/loco4.png"></p>
+
+                </ol>
+
+            </div>
+        </section>
+        <!-- /#Need help -->
+
+
+
+
+        
+        <section id="gi-help" class="content slide">
+            <div>
+                <h2>Need help?</h2>
+                <p>If you need help with setting up the template, please <a href="http://wpprime.com/forum/plugin-support/AweBooking">post your question here</a>. There are a few notes:</p>
+				<ul class="arrowlist">
+					<li>Before you ask a question please make sure to scan the menu and read the specific section of your question.</li>
+					<li>If it's a specific HTML question, Google (or any other search engine) is your friend and probably a hundred times faster in replying.</li>
+					<li>If it's possible, please provide a link to your (demo) website so our stuff are able to quickly scan for possible issues.</li>
+				</ul>
+            </div>
+        </section>
+        <!-- /#Need help -->
+        
+        <section id="gi-bug" class="content slide">
+            <div>
+                <h2>Report a bug</h2>
+                <p>If you found a bug, please <a href="mailto:info@megadrupal.com">send us an e-mail</a> with a (small) description of the issue. Your help is always apreciated.</p>
+            </div>
+        </section>
+        <!-- /#Report a bug -->
+
+
+        <footer id="footer">
+            <p>&copy; 2014 <a href="http://megadrupal.com" target="_blank">MegaDrupal</a>. All Rights Reserved.</p>
+        </footer>
+        <!-- /#footer -->
+
+	</section>
+        <!-- /#main -->
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

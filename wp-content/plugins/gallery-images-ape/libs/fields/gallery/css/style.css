@@ -1,0 +1,20 @@
+/*  
+ * Ape Gallery			
+ * Author:            	Wp Gallery Ape 
+ * Author URI:        	https://wpape.net/
+ * License:           	GPL-2.0+
+ */
+
+.collection-settings.gallery-settings{ display: none }
+.wpape-gallery-manage.apeGalleryDiv{ text-align: center; }
+.cmb-type-wpape-gallery-manage p.cmb2-metabox-description{ text-align: center; }
+.cmb-type-wpape-gallery-manage{ padding: 0 !important; margin: 20px 0 0 0 !important;}
+table.compat-attachment-fields tr.compat-field-wpape_gallery_line,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_line,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_col,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_video_link,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_type_link,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_link,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_line_premium,
+table.compat-attachment-fields tr.compat-field-wpape_gallery_effect{ display:block !important; }
+#side-sortables .cmb-type-wpape-gallery-manage .cmb2-metabox-description{ padding-bottom: 5px;}

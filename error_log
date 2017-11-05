@@ -1,0 +1,103 @@
+[31-Dec-2016 16:45:37 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:38 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:40 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:45:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:47:14 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:47:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:38 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:39 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[22-Jan-2017 18:23:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:26:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:26:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:26:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:26:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:27:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:27:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:30:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:30:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:31:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:31:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:32:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:32:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:33:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:33:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:33:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:36:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:36:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:36:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:36:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[22-Jan-2017 18:36:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jim8eam/public_html/wp-content/plugins/post-grid/grid-items/variables.php on line 114
+[16-Oct-2017 22:04:39 UTC] PHP Fatal error:  Class 'Gallery_Images_Ape_Render' not found in /home/jim8eam/public_html/wp-content/plugins/gallery-images-ape/libs/render/classGallery.php on line 12
+[04-Nov-2017 14:47:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59
+[04-Nov-2017 14:53:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59
+[04-Nov-2017 14:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59
+[04-Nov-2017 15:05:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59
+[04-Nov-2017 15:08:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59
+[04-Nov-2017 15:12:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php on line 59

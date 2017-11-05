@@ -1,0 +1,112 @@
+2017-10-16T22:04:39+00:00 CRITICAL Class 'Gallery_Images_Ape_Render' not found
+
+2017-11-04T14:47:41+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T14:53:28+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T14:59:31+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:05:40+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:08:42+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:12:44+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:33:30+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:38:31+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:52:23+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+
+2017-11-04T15:53:24+00:00 CRITICAL Uncaught Error: Call to a member function info() on null in /home/jim8eam/public_html/wp-content/plugins/awebooking/inc/Background_Updater.php:59
+Stack trace:
+#0 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(300): AweBooking\Background_Updater->task('awebooking_upda...')
+#1 /home/jim8eam/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(444): WP_Background_Process->handle()
+#2 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(298): WP_Background_Process->handle_cron_healthcheck()
+#3 /home/jim8eam/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 /home/jim8eam/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/jim8eam/public_html/wp-cron.php(117): do_action_ref_array('awebooking_aweb...', Array)
+#6 {main}
+  thrown
+

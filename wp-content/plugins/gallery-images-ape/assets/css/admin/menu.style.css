@@ -1,0 +1,11 @@
+/*  
+ * Ape Gallery			
+ * Author:            	Wp Gallery Ape 
+ * Author URI:        	https://wpape.net/
+ * License:           	GPL-2.0+
+ */
+
+#adminmenu .menu-icon-wpape_gallery_type .wp-menu-image.dashicons-palmtree::before,
+#adminmenu .menu-icon-wpape_gallery_type.wp-has-current-submenu:hover .wp-menu-image.dashicons-palmtree::before{
+	color: #f17421;
+}

@@ -1,0 +1,765 @@
+/*
+Theme Name: GoneCocoaNuts
+Author: Dustin Tagg
+Author URI: http://www.gonecocoanuts.com
+Version: 1.0
+*/
+
+body {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	background: url(images/BackgroundIMG1.jpg) no-repeat center center fixed  !Important;
+    -webkit-background-size: cover !Important;
+    -moz-background-size: cover !Important;
+    -o-background-size: cover !Important;
+    background-size: cover !Important;
+	background-repeat: repeat;
+	background-position:0% 0%;
+	/*position: relative;*/
+	font-family: Verdana, Geneva, sans-serif;
+	min-width: 150px;
+	top: 0px;
+}
+
+/* Home page container banner */
+#home-banner-container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#home-banner {
+	transition: all 7s ease-in-out;
+	-webkit-transition: all 7s ease-in-out;
+	-moz-transition: all 7s ease-in-out;
+	-ms-transition: all 7s ease-in-out;
+	-o-transition: all 7s ease-in-out;
+	width: 100%;
+	height: auto;
+}
+#home-banner:hover {
+	-moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+.home #logo {
+	/* make the log sit over the background when hovering */
+	z-index: 1;
+	position: absolute;
+}
+/* Home page grid - content seperator */
+.home #post-grid-header {
+	border-top: 2px solid #999;
+	text-align: center;
+	padding-top: 20px;
+	font-family: "Times New Roman", Georgia, serif;
+}
+
+/* Home page price sale */
+.home .sale {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	display: block;
+	background-image: url("https://www.gonecocoanuts.com/wp-content/uploads/2017/01/pineapple-wallpaper-pattern.jpg");
+	background-repeat: repeat;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	line-height: .5em;
+	letter-spacing: 3px;
+	margin-top: -5px !important;
+}
+.home .sale p, .home .sale h3 {
+	text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+	
+}
+.home .sale p {
+	text-align: center;
+	font-size: 26pt;
+	color: #b3ff26;
+	padding: 0;
+	margin: 0;
+}
+.home .sale p:last-of-type {
+	font-size: 24pt;
+}
+.home .sale h3 {
+	font-weight: bolder;
+	font-size: 36pt;
+	text-align: center;
+	color: #f1ff60;
+}
+.home img {
+	paddding: 0;
+	margin: 0;
+}
+
+/* Company Logo on each page */
+.site-header h5 {
+	text-align: center;
+}
+img.logo-thumb {
+	width: auto;
+	height: 110px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* The containers padding adjsutment for alll interior elements */
+h1, h2, h3, h4, h4, h5, p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+p {
+	text-indent: 30px;
+	line-height: 1.5em;
+	font-size: 105%;
+	padding: 0;
+	margin: 0;
+}
+a, li, h2 {
+	transition: all 0.4s ease .01s;
+}
+ul {
+	/*list-style: none;*/
+}
+a {
+	text-decoration: none;
+}
+
+.site-header h1{
+}
+.site-header {
+	
+}
+
+/* Booking plugin page styles */
+.awe-page {
+	/*width: 90% !important;*/
+	/*left: 50px !important;
+	right: 50px !important;
+	width: auto !important;*/
+}
+
+/* Post date and info on blog style */
+.post-info {
+	text-indent: 0px !important;
+	color: rgb(130, 130, 130);
+	font-size: 10pt;
+	line-height: 0em;
+}
+.post h2 {
+	margin-bottom: 0;
+}
+.post a:hover {
+	color: rgb(40,155,0);
+	text-shadow: 0px 0px .5px black;
+}
+.post a {
+	text-decoration: none;
+	color: rgb(170,0,0);
+}
+
+.container {
+	background-color: rgb(247,247,247);
+	margin: 0 auto;
+	bottom: 10px;
+	display: block;
+	margin-top: 35px;
+	/*position: relative;*/
+}
+article.post.page p {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+article.post.page h2 {
+	text-align: center;
+	line-height: 2em;
+}
+
+/* Trademark style*/
+#trademark {
+	text-indent: 0;
+}
+
+/* Footer and Header Sub Menus */
+.site-footer {
+	margin-top: 30px;
+	border-top: 2px solid #999;
+}
+.site-footer ul {
+	list-style-type: none;
+}
+.site-footer nav ul li a:link,
+.site-footer nav ul li a:visited {
+	color: rgb(140,140,140);;
+	font-size: 10pt;
+}
+.site-footer nav ul li a:hover {
+	color: black;
+	font-size: 11pt;
+}
+.site-header {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #999;
+}
+.home .site-header {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	border-bottom: none !important;
+}
+footer #paypal-logo {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+footer #footer-columns th {
+	margin: 0 auto;
+}
+/* Social media widgets */
+.widget-area {
+	list-style-type: none;
+}
+	
+/* Post sharing widget mods */
+.mashsb-container {
+	width: 30%;
+}
+
+/* General Menu Style */
+header .site-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.site-nav ul{
+	padding-left: 0px;
+}
+
+/* Post seperator */
+article.post {
+	border-bottom: 1px dotted #bbbbbb;
+}
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 200%;
+}
+
+.directory a {
+	/* DISABLED HEADER TODO */
+	pointer-events: none !important;
+	cursor: default;
+	/************************/
+}
+.home a {
+	/* DISABLED HEADER TODO */
+	pointer-events: none !important;
+	cursor: default;
+	/************************/
+}
+
+/* Global Menu */
+.directory {	
+	background-color: rgb(170,0,0);
+	height: 35px;
+	width: 100%;
+	margin-bottom: 35px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	clear: both;
+	/* fixes underlapping directory */
+	z-index: 2 !important;
+}
+.directory ul {
+	list-style-type: none;
+	display: table;
+	margin: 0px auto;
+	padding: 0;
+}
+.directory ul li {
+	line-height: 35px;
+	display: block;
+	/*border: 1px solid rgb(18, 15, 12);*/
+	/*position: relative;*/
+}
+.directory ul li:hover {
+	background-color: rgb(40,155,0); 
+	/*background: linear-gradient (top, #4f5964 0#, #5f6975 404);
+	background: -moz linear-gradient (top, #4f5964 04, #5f6975 404);
+	background: -webkit-linear-gradient (top, #4f5964 04, #5f6975 404);*/
+}
+.directory ul li a:hover {
+	color: black;
+}
+.directory ul li a {
+	color: white;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+.directory {
+	font-family: ‘Arial Narrow’, sans-serif;
+}
+
+
+.slider-container {
+	background-color: rgb(34,34,34);
+	width: 100%;
+	height: auto;
+}
+.ml-slider {
+	margin: 0 auto;
+}
+.slider-wrapper {
+	margin: 0 auto;
+}
+/* Image style */
+img {
+	max-width: 100%;
+	height: auto;
+}
+.post-thumbnail img {
+	width: 120px !important;
+}
+.has-thumbnail {
+	position: relative;
+	padding-left: 140px;
+}
+.post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* awe booking price a night fix */
+p.price {
+	text-align: center !important;
+}
+p.price span {
+	display: block;
+}
+/* Woocommerce page styling */
+.woocommerce p{
+	text-indent: 0;
+}
+
+/* Initialize hamberger icons, javascript (functions.js) handles the rest */
+#img_open {
+	display: block;	
+}
+#img_close {
+	display: none;	
+}
+
+/* Bocas del toro page mods*/
+.bocas-map {
+	float: right;
+}
+
+/* Hides a dysfuncyional 'view price detail' link */
+.readmore-price {
+	display: none;
+}
+
+/* Notice Bar */
+.bx-viewport {
+	font-weight: 700;
+}
+
+/* Side menue bar for cart, account, and checkout, etc */
+.wpfm-menu-wrapper nav ul {
+	top: 217px !important;
+}
+
+/* Rempoves secondary header navigation, replaaced with plugin */
+.site-header nav ul {
+		display: none;
+}
+.woocommerce {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Sticky Menu width fix */
+.sticky-element-original {
+	width: 100% !important;
+}
+/* larger than 801 pixels */
+@media screen and (min-width: 801px){
+	
+	/* awe booking centering and sizing */
+	.apb-container {
+		margin: 0 !important;
+		padding: 0 !important;
+		left: 0px !important;
+		width: 100% !important;	
+	}
+	.apb-layout { /* This centered the layout within the container very messy fix also important*/
+		width: 100% !important;
+		margin: 0 auto !important;
+	}
+	.awebooking {
+		width: 100%;
+	}
+	.apb-room_text {
+		overflow-x: visible !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		
+	}
+	.awe-page {
+		width: 75% !important;
+	}
+	.container{
+		width: 75%;
+		/*-moz-box-shadow: rgb(160,82,45) 5px 5px 10px 2px;
+		webkit-box-shadow: rgb(160,82,45) 5px 5px 10px 2px;
+		box-shadow: rgb(160,82,45) 5px 5px 10px 2px;*/
+		border:14px outset rgb(120, 140, 140);
+		-webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, .4);
+		-moz-box-shadow: 10px 10px 25px rgba(0, 0, 0, .4);
+		box-shadow: 10px 10px 25px rgba(0, 0, 0, .4);
+	}
+	.home {
+		/*width: 80%;*/
+	}
+	/* Home page logo, header, and banners */
+	#logo {
+		float: left;
+		position: absolute;
+		width: 500px;
+		/*margin-left: 25px;
+		margin-top: 50px;*/
+		margin: 0 auto;
+	}
+	
+	
+	/* Coconut header image */
+	.banner {
+		background-color: white;
+		border-bottom: 3px solid black;
+		padding-bottom: 80px;
+		display: block;
+		position: relative;
+		top: 0px;
+		background-image: url(images/coconut.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+
+	/* Disclamer style on footer menu pages */
+	div.info-box {
+		display: none !important; /* REMOVE THIS TO RETURN THE DISCLAIMER BOX! */
+		width: 30%;
+		float: right;
+		margin: 0 0 20px 20px;
+		padding: 0 20px 0 20px;
+		background-color: #EEE;
+	}
+	div.info-box h4 {
+		margin-bottom: 5px;
+	}
+	div.info-box p {
+		font-size: 10pt;
+	}
+	
+	/* Header Menu */
+	.site-header h1, h5 {
+
+	}
+	.site-header nav ul {
+		position: absolute;
+		right: -130px;
+		top: 110px;
+		float: right;
+		overflow: hidden;
+	}
+	.site-header nav ul li {
+		clear: left;
+	}
+	.site-header nav ul li:hover {
+		transform: translateX(-130px);
+		right: 0;
+	}
+	.site-header nav ul li a:link,
+	.site-header nav ul li a:visited {
+		display: block;
+		background-color: rgb(170,0,0);/*Put the theme color here*/
+		padding: 10px 20px;
+		border: 1px solid #BBB;/*light grey*/
+		text-decoration: none;
+		color: white;
+		
+		width: 150px;
+		height: 30px;
+		overflow-x: hidden;
+	}
+	.site-header nav ul li a:hover {
+		/*background-color: #ECECEC;*//*Put the theme color here*/
+		background-color: rgb(40,155,0);
+		color: black;
+		
+		
+		display: inline-block;
+		-webkit-animation: slide 0.5s forwards;
+		-webkit-animation-delay: 2s;
+		animation: slide 0.5s forwards;
+		animation-delay: 2s;
+	}
+	.site-header nav ul li.current-menu-item a:link,
+	.site-header nav ul li.current-menu-item a:visited {
+		/*background-color: #006ec3;*/
+		background-color: #EEE;
+		color: #D3D3D3;
+		pointer-events: none;
+		cursor: default;
+	}
+	
+	
+	/* General Menu Style */
+	/* NOTE!! this effects the in .container menus
+	aka the footer menu and the awe menu */
+	/* NOTE CHANGED THIS TO ONLY EFFECT FOOTER */
+	footer .site-nav ul:before,
+	footer .site-nav ul:after {
+		content: "";
+		display: table;
+	}
+	footer .site-nav ul:after { clear: both; }
+	footer .site-nav ul { *zoom: 1; }
+	footer .site-nav ul li {
+		list-style: none;
+		float: left;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	/****************END**************/
+	
+	/* Footer Menu */
+	footer .site-nav ul li {
+		margin-right: 10px;
+		padding-right: 10px;
+		margin-top: 20px;
+		border-right: 1px dotted #BBB;
+	}
+	footer .site-nav ul li:last-of-type {
+		border-right: none;
+	}
+	
+	/* Global Menu */
+	/* directory modifications */
+	.directory ul li {
+		float: left;
+	}
+	.directory ul li a {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.directory ul li:first-of-type{
+		border-left: 1px solid black;
+	}
+	.directory ul li a:last-of-type{
+		border-right: 1px solid black;
+	}
+	
+	/*Drop down modifications*/
+	.directory ul li:hover ul{
+		display: block;
+	}
+	.directory ul li a,visited {
+		color: white;
+		display: block;
+	}
+	.directory ul ul li {
+		width: 210px;
+		border-bottom: 1px solid black;
+	}
+	.directory ul ul li:first-of-type{
+		border-left: none;
+	}
+	.directory ul ul li:last-of-type{
+		border-bottom: none;
+		border-right: none;
+	}
+	.directory ul ul li a:last-of-type{
+		border-right: none;
+	}
+	.directory ul ul {
+		display: none;
+		border: none;
+		position: absolute;
+		background-color: rgb(170,0,0); 
+		width: 110px;
+		/*border: 1px solid black;*/
+	}
+}
+
+/* smaller than 801 pixels */
+@media screen and (max-width: 801px){
+	
+	/* Home page logo, header, and banners */
+	#logo {
+		float: left;
+		position: absolute;
+		margin-top: 25px;
+	}
+	#banner {
+		
+	}
+	
+	body {
+		background-image: none !important;
+		background-color: rgb(247,247,247) !important;
+		top: -96px !important;
+	}
+
+	.container {
+		background-color: rgb(247,247,247) !important;
+		-moz-box-shadow: none;
+		webkit-box-shadow: none;
+		box-shadow: none;
+		border: none;
+		display: block;
+		margin-top: 97px;
+		/*transform: scale(.85);
+		transform-origin: 10% 10%;*/
+	}
+	
+	/* Social media widgets */
+	.widget-area {
+		float: right;
+		width: inherit;
+		display: block;
+		list-style-type: none;
+		position: relative;
+		right: 0;
+		bottom: 45px;
+		margin: 25px;
+	}
+
+	/* Post sharing widget mods */
+	.mashsb-container {
+		width: 200px;;
+	}
+
+	/* Disclamer box of select footer pages */
+	div .info-box {
+		display: none !important; /* REMOVE THIS TO RETURN THE DISCLAIMER BOX! */
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		padding: 20px;
+		background-color: #EEE;
+	}
+	div .info-box h4 {
+		margin-bottom: 5px;
+	}
+	div .info-box p {
+		font-size: 10pt;
+	}
+	
+	/* Header style */
+	header .site-nav a:hover {
+		color: rgb(40,155,0);
+		text-shadow: 0px 0px .5px black;
+	}
+	header .site-nav a {
+		text-decoration: none;
+		color: rgb(170,0,0);
+		font-size: 120%;
+		line-height: 1.75em;
+	}
+	header .site-nav {
+		text-align: center;
+	}
+	
+	/* Global Menu */
+	/* directory modifications */
+	/*.directory {
+
+	}
+	.directory ul li {
+		width: 100%;
+		border-bottom: 1px solid black;
+		border-left: none;
+		border-right: none;
+		text-align: center;
+		background-color: rgb(170,0,0);
+	}
+	.directory ul{
+		top: -250px;
+		width: 100%;
+		border: 1px solid black;
+		position: absolute;
+	}
+	.directory ul li:last-of-type{
+		border-bottom: none;
+	}
+	.directory ul li a {
+		padding-left: 4px;
+		display: block;
+	}
+	*/
+	/* Menu Icon */
+	/*#hamburger-icon {
+		height: 35px;
+	}*/
+	
+	/* Menu plugin mods */
+	#wprmenu_menu menu-item-object-page:hover {
+		
+	}
+	#wprmenu_menu .menu-item:hover {
+		
+	}
+	#wprmenu_menu .menu-item-type-post_type:hover {
+		background-color: rgb(40,155,0) !important;
+	}
+	#wprmenu_menu .menu-item-type-post_type {
+		font-size: 150% !important;
+		text-transform: uppercase !important;
+		font-weight: bold !important;
+	}
+	
+	/* Footer Menu */
+	.site-footer nav ul li {
+		margin-right: 10px;
+		padding-right: 10px;
+		margin-top: 20px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.site-footer nav ul li:last-of-type {
+		border-right: none;
+	}
+	
+}

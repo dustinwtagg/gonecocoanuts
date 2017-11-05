@@ -1,0 +1,28 @@
+[31-Dec-2016 16:48:09 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:48:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:49:09 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:49:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:51:11 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:51:11 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:13 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:53:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:55:13 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:55:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:57:13 UTC] PHP Warning:  require(/home/jim8eam/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/jim8eam/public_html/wp-settings.php on line 19
+[31-Dec-2016 16:57:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/jim8eam/public_html/wp-includes/load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jim8eam/public_html/wp-settings.php on line 19
+[09-Jan-2017 18:06:42 UTC] PHP Warning:  filesize(): stat failed for /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/xml-data/AwebookingData.zip in /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/apb-import-export.php on line 350
+[09-Jan-2017 18:07:05 UTC] PHP Warning:  filesize(): stat failed for /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/xml-data/AwebookingData.zip in /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/apb-import-export.php on line 350
+[09-Jan-2017 18:07:06 UTC] PHP Warning:  filesize(): stat failed for /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/xml-data/AwebookingData.zip in /home/jim8eam/public_html/wp-content/plugins/awebooking/lib/apb-import-export.php on line 350
+[17-Jan-2017 13:41:02 UTC] returning filecontents through curl.
+[17-Jan-2017 13:42:02 UTC] returning filecontents through curl.
+[17-Jan-2017 13:42:02 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:08 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:09 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:17 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:24 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:25 UTC] returning filecontents through curl.
+[23-Jan-2017 13:58:26 UTC] returning filecontents through curl.
+[23-Jan-2017 19:40:12 UTC] returning filecontents through curl.
+[23-Jan-2017 19:40:13 UTC] returning filecontents through curl.
+[23-Jan-2017 19:40:59 UTC] returning filecontents through curl.
+[23-Jan-2017 19:41:04 UTC] returning filecontents through curl.
