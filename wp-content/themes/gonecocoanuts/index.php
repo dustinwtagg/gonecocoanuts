@@ -1,7 +1,8 @@
-﻿<!-- index.php -->
+<!-- index.php -->
 <?php 
 
 get_header();
+
 
 	//loop through the posts and add them to the page
 if (have_posts()) :
